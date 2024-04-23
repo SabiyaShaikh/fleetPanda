@@ -15,8 +15,8 @@ describe("Daraz Checkout Flow", () => {
     });
     loginPage.visit();
     loginPage.clickLoginButton();
-    loginPage.fillUsername("9823220175");
-    loginPage.fillPassword("kritarth123");
+    loginPage.fillUsername("Username");
+    loginPage.fillPassword("Password");
     loginPage.submit();
   });
 
